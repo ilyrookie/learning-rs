@@ -264,18 +264,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "actix_test"
-version = "0.1.0"
-dependencies = [
- "actix-web",
- "diesel",
- "dotenv",
- "futures",
- "serde",
- "serde_json",
-]
-
-[[package]]
 name = "adler"
 version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -878,6 +866,18 @@ name = "lazy_static"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
+
+[[package]]
+name = "learning_rust"
+version = "0.1.0"
+dependencies = [
+ "actix-web",
+ "diesel",
+ "dotenv",
+ "futures",
+ "serde",
+ "serde_json",
+]
 
 [[package]]
 name = "libc"
